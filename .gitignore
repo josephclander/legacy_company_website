@@ -1,0 +1,11 @@
+# sass files
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# sketch files
+*.sketch
+
+# mac files
+.DS_Store
