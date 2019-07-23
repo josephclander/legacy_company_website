@@ -1,4 +1,7 @@
 body {
-  background: #fff url("/images/BackgroundTile.png") repeat center; }
+  box-sizing: border-box;
+  background: #fff url("/images/BackgroundTile.png") repeat center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000; }
 
 /*# sourceMappingURL=main.css.map */

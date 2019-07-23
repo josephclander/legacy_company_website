@@ -1,11 +1,22 @@
 // fonts
 
 $fontstack: Helvetica, Arial, sans-serif;
+$brandfont: "Mr Dafoe", cursive;
+
+
+// font colors
+
 $primary-color: #000;
 $secondary-color: #515151;
 $tertiary-color: #707070;
+
 
 // backgrounds
 
 $lightgrey: #e6e6e6;
 $highlight: #A8FDEF;
+
+
+// shadows
+
+$highlightShadow: 3px 3px 0 0 #fff, 6px 6px 0 0 $highlight;

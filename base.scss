@@ -1,5 +1,8 @@
-@import 'partials/variables';
+@import "partials/variables";
 
-body { 
-  background: #fff url("/images/BackgroundTile.png") repeat center; 
+body {
+  box-sizing: border-box;
+  background: #fff url("/images/BackgroundTile.png") repeat center;
+  font-family: $fontstack;
+  color: $primary-color;
 }
