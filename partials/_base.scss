@@ -1,7 +1,18 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
-  box-sizing: border-box;
-  background: #fff url("/images/BackgroundTile.png") repeat center;
+  margin: 0;
   font-family: $fontstack;
   color: $primary-color;
+  background: #fff;
+}
+
+
+
+.container {
+  margin: 0;
+  max-width: $LGdesktop;
+  background: #fff url("/images/BackgroundTile.png") repeat center;
 }

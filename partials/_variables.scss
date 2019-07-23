@@ -4,6 +4,20 @@ $fontstack: Helvetica, Arial, sans-serif;
 $brandfont: "Mr Dafoe", cursive;
 
 
+// font-size
+
+h1 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
 // font colors
 
 $primary-color: #000;
@@ -13,6 +27,7 @@ $tertiary-color: #707070;
 
 // backgrounds
 
+$white: #fff;
 $lightgrey: #e6e6e6;
 $highlight: #A8FDEF;
 
@@ -20,3 +35,11 @@ $highlight: #A8FDEF;
 // shadows
 
 $highlightShadow: 3px 3px 0 0 #fff, 6px 6px 0 0 $highlight;
+
+
+// break-points
+// starting from a mobile layout
+
+$tablet: 320px;
+$desktop: 768px;
+$LGdesktop: 1024px;
