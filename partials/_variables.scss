@@ -6,9 +6,7 @@ $brandfont: "Mr Dafoe", cursive;
 
 // font-size
 
-h1 {
-    font-size: 1.75em;
-}
+$headlineSize: 4em;
 
 h3 {
     font-size: 1.3em;
@@ -37,9 +35,15 @@ $highlight: #A8FDEF;
 $highlightShadow: 3px 3px 0 0 #fff, 6px 6px 0 0 $highlight;
 
 
+// image sizes
+
+$smallImage: 100px;
+$medImage: 200px;
+$largeImage: 300px;
+
 // break-points
 // starting from a mobile layout
 
 $tablet: 320px;
 $desktop: 768px;
-$LGdesktop: 1024px;
+$LGdesktop: 1280px;

@@ -1,4 +1,32 @@
 .landingPage {
-    margin-top: 30px;
+  margin-top: 45px;
+  height: calc(100vh - 45px);
+  display: flex;
+  flex-direction: column;
 }
 
+.profile {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headline {
+  font-family: $brandfont;
+  padding: 20px;
+  font-size: $headlineSize;
+}
+
+.highlightBox {
+  margin-top: 20px;
+  background: $highlight;
+  border-radius: 8px;
+  height: calc(#{$headlineSize} + 40px + (0.5 * #{$medImage}));
+  width: calc(#{$medImage} + 100px);
+}
+
+.profile_image img {
+  height: $medImage;
+  width: $medImage;
+  border-radius: 50%;
+  border: 4px solid $primary-color;
+}

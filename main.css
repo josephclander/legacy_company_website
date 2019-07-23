@@ -324,9 +324,6 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
-h1 {
-  font-size: 1.75em; }
-
 h3 {
   font-size: 1.3em; }
 
@@ -343,13 +340,12 @@ body {
   background: #fff; }
 
 .container {
-  margin: 0;
-  max-width: 1024px;
+  margin: 0 auto;
+  max-width: 1280px;
   background: #fff url("/images/BackgroundTile.png") repeat center; }
 
 nav {
   width: 100%;
-  border: 1px solid red;
   position: fixed;
   top: 0;
   background: #fff;
@@ -361,10 +357,38 @@ nav {
 .title {
   font-family: "Mr Dafoe", cursive; }
 
+.landingPage {
+  margin-top: 45px;
+  height: calc(100vh - 45px);
+  display: flex;
+  flex-direction: column; }
+
+.profile {
+  margin: 0 auto;
+  text-align: center; }
+
+.headline {
+  font-family: "Mr Dafoe", cursive;
+  padding: 20px;
+  font-size: 4em; }
+
+.highlightBox {
+  margin-top: 20px;
+  background: #A8FDEF;
+  border-radius: 8px;
+  height: calc(4em + 40px + (0.5 * 200px));
+  width: calc(200px + 100px); }
+
+.profile_image img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #000; }
+
 .burger {
   width: 35px;
   height: 3px;
-  margin: 6px 0;
+  margin: 4px 0;
   background: #000; }
 
 /*# sourceMappingURL=main.css.map */
