@@ -426,4 +426,17 @@ nav {
   margin: 4px 0;
   background: #000; }
 
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #A8FDEF;
+  border: 2px solid #000;
+  margin: 0 10px; }
+
+.divider {
+  margin-top: -15px;
+  display: flex;
+  justify-content: center; }
+
 /*# sourceMappingURL=main.css.map */
