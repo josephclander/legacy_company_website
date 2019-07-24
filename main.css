@@ -442,6 +442,62 @@ nav {
   margin: 18px;
   width: 100px; }
 
+.testimonials {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .testimonials ul {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+    .testimonials ul li {
+      margin: 50px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #fff;
+      max-width: 360px;
+      border: 2px solid #000;
+      box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 #A8FDEF; }
+
+.testimonials__img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin-top: -50px;
+  box-shadow: -4px 0 0 4px #fff; }
+
+.profileTitle {
+  line-height: 1.5em;
+  margin-top: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #A8FDEF;
+  border-radius: 8px;
+  transform: rotate(-3deg); }
+
+.profileTitle__item {
+  transform: rotate(3deg); }
+
+.profileTitle__name {
+  font-weight: bold; }
+
+.profileTitle__business {
+  font-weight: lighter;
+  font-style: italic; }
+
+.testimonials__article {
+  padding: 8px 8px 12px 8px;
+  text-align: justify;
+  color: #707070; }
+
 .burger {
   width: 35px;
   height: 3px;
@@ -467,7 +523,9 @@ nav {
   background: #fff;
   box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 #A8FDEF;
   text-align: center;
-  margin-bottom: -22px;
   z-index: 10; }
+
+.headerBox__whyPhiliy {
+  margin-bottom: -22px; }
 
 /*# sourceMappingURL=main.css.map */
