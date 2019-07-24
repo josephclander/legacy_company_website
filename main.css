@@ -352,7 +352,8 @@ nav {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  z-index: 100; }
 
 .title {
   font-family: "Mr Dafoe", cursive; }
