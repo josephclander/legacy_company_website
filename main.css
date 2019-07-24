@@ -361,7 +361,8 @@ nav {
   margin-top: 45px;
   height: calc(100vh - 45px);
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
 
 .profile {
   margin: 0 auto;
@@ -384,6 +385,40 @@ nav {
   width: 200px;
   border-radius: 50%;
   border: 4px solid #000; }
+
+.blurb {
+  font-style: italic;
+  margin-top: calc(0.5 * 200px + 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.hyphen {
+  font-size: 4em;
+  line-height: 1em; }
+
+.hyphen_1 {
+  align-self: flex-start;
+  margin-left: -32px;
+  margin-bottom: -30px; }
+
+.hyphen_2 {
+  align-self: flex-end;
+  margin-right: -18px; }
+
+.highlightBox__blurb {
+  background: #A8FDEF;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  transform: rotate(-3deg); }
+
+.blurb__jobs {
+  display: flex;
+  flex-direction: column; }
+
+.blurb__item {
+  padding: 10px; }
 
 .burger {
   width: 35px;
