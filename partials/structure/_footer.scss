@@ -36,6 +36,14 @@ span {
   flex: 1;
 }
 
+.social__link {
+  color: $tertiary-color;
+}
+
+.social__link:hover {
+  color: $primary-color;
+}
+
 .fab {
   margin: 0 10px;
 }

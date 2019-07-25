@@ -531,6 +531,12 @@ span {
   font-size: 2em;
   flex: 1; }
 
+.social__link {
+  color: #707070; }
+
+.social__link:hover {
+  color: #000; }
+
 .fab {
   margin: 0 10px; }
 
