@@ -344,12 +344,16 @@ body {
   max-width: 1280px;
   background: #fff url("/images/BackgroundTile.png") repeat center; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 nav {
   width: 100%;
   position: fixed;
   top: 0;
   background: #fff;
-  padding: 10px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -558,6 +562,21 @@ span {
   height: 3px;
   margin: 4px 0;
   background: #000; }
+
+.btn {
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 10px; }
+
+.btn__contact {
+  background: #A8FDEF; }
+
+.btn__link {
+  color: #707070;
+  text-decoration: none; }
+
+.btn__link:hover {
+  color: #000; }
 
 .circle {
   width: 30px;

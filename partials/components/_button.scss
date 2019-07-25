@@ -1,0 +1,18 @@
+.btn {
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn__contact {
+    background: $highlight;
+}
+
+.btn__link {
+    color: $tertiary-color;
+    text-decoration: none;
+}
+
+.btn__link:hover {
+    color: $primary-color;
+}

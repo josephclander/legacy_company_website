@@ -14,3 +14,8 @@ body {
   max-width: $LGdesktop;
   background: #fff url("/images/BackgroundTile.png") repeat center;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

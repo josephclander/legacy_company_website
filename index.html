@@ -18,23 +18,23 @@
     <link rel="stylesheet" href="main.css" />
     <!-- <script src="main.js"></script> -->
   </head>
-  <body>
+  <body id="home">
     <nav>
-      <div class="title">
-        <h3>
-          Philiy
-        </h3>
-      </div>
+      <a href="#home"><div class="title">
+      <h3>
+      Philiy
+      </h3>
+      </div></a>
       <div class="menuButton mobile">
         <div class="burger"></div>
         <div class="burger"></div>
         <div class="burger"></div>
       </div>
-      <div class="menu">
-        <div class="btn btn__about">About</div>
-        <div class="btn btn__testimonials">Testimonials</div>
-        <div class="btn btn__contact">Contact</div>
-      </div>
+      <ul class="menu">
+        <a class="btn__link" href="#about"><li class="btn btn__about">About</li></a>
+        <a class="btn__link" href="#testimonials"><li class="btn btn__testimonials">Testimonials</li></a>
+        <a class="btn__link" href="#contact"><li class="btn btn__contact">Contact</li></a>
+      </ul>
     </nav>
     <div class="container">
       <div class="landingPage">
@@ -67,7 +67,7 @@
         <div class="circle"></div>
         <div class="circle"></div>
       </div>
-      <div class="whyPhiliy">
+      <div id="about" class="whyPhiliy">
         <h3 class="headerBox  headerBox__whyPhiliy">Why work with Philiy?</h3>
         <article class="whyPhiliy__text">
           <p>
@@ -90,7 +90,7 @@
           />
         </article>
       </div>
-      <div class="divider">
+      <div id="testimonials" class="divider">
         <div class="circle"></div>
         <div class="circle"></div>
         <div class="circle"></div>
@@ -189,7 +189,7 @@
           </li>
         </ul>
       </div>
-      <footer>
+      <footer id="contact">
         <div class="email"><span>philiy@me.com</span></div>
         <div class="vertLine"></div>
         <div class="social">
