@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .profile {
@@ -26,7 +27,6 @@
 }
 
 .profile_image img {
-  height: $medImage;
   width: $medImage;
   border-radius: 50%;
   border: 4px solid $primary-color;
