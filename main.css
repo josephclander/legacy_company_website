@@ -358,6 +358,19 @@ nav {
 .title {
   font-family: "Mr Dafoe", cursive; }
 
+.mobile {
+  display: block; }
+
+.menu {
+  display: none; }
+
+@media (min-width: 425px) {
+  .menu {
+    display: flex;
+    justify-content: space-between; }
+
+  .mobile {
+    display: none; } }
 .landingPage {
   margin-top: 45px;
   height: calc(100vh - 45px);

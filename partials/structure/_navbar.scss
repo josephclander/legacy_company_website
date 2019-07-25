@@ -14,6 +14,21 @@ nav {
     font-family: $brandfont;
 }
 
-@media (max-width: $tablet) {
-  
+.mobile {
+    display: block;
+}
+
+.menu {
+    display: none;
+}
+
+@media (min-width: $tablet) {
+  .menu {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .mobile {
+      display: none;
+  }
 }
