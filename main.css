@@ -518,7 +518,7 @@ nav {
 footer {
   background: #e6e6e6;
   width: 100%;
-  height: 100px;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -533,7 +533,6 @@ footer {
 
 .email {
   font-size: 1.3em;
-  flex: 1;
   font-style: italic;
   transform: rotate(-3deg); }
 
@@ -544,19 +543,45 @@ span {
   box-shadow: 4px 4px 0 0 #fff;
   border-radius: 8px; }
 
+.social__email {
+  flex: 1; }
+
 .social {
-  font-size: 2em;
   flex: 1; }
 
 .social__link {
-  color: #707070; }
+  color: #707070;
+  justify-content: center; }
 
 .social__link:hover {
   color: #000; }
 
-.fab {
-  margin: 0 10px; }
+.social__highlight {
+  display: none; }
 
+.fab {
+  box-shadow: 4px 4px 0 0 #fff;
+  font-size: 2.6em;
+  margin: 0 17px; }
+
+@media (min-width: 425px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .social__link {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; }
+
+  .social__highlight {
+    display: inherit;
+    font-size: 1.3em;
+    flex: 1;
+    font-style: italic;
+    transform: rotate(-3deg); } }
 .burger {
   width: 35px;
   height: 3px;
