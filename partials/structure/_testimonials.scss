@@ -1,66 +1,79 @@
 .testimonials {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-    & ul {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+.testimonials__list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-        & li {
-            margin: 50px 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background: $white;
-            max-width: 360px;
-            border: $primary-border;
-            box-shadow: $highlightShadow;
-        }
-    }
+.testimonials__item {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $white;
+  max-width: 360px;
+  border: $primary-border;
+  box-shadow: $highlightShadow;
 }
 
 .testimonials__img {
-    height: 100px;
-    width: 100px;
-    border: $primary-border;
-    border-radius: 50%;
-    margin-top: -50px;
-    box-shadow: -4px 0 0 4px $white;
+  width: 100px;
+  border: $primary-border;
+  border-radius: 50%;
+  margin-top: -50px;
+  box-shadow: -4px 0 0 4px $white;
 }
 
 .profileTitle {
-    line-height: 1.5em;
-    margin-top: 15px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: $highlight;
-    border-radius: 8px;
-    transform: rotate(-3deg);
+  margin-top: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $highlight;
+  border-radius: 8px;
+  transform: rotate(-3deg);
 }
 
 .profileTitle__item {
-    transform: rotate(3deg);
+  transform: rotate(3deg);
 }
 
 .profileTitle__name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .profileTitle__business {
-    font-weight: lighter;
-    font-style: italic;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 .testimonials__article {
-    padding: 30px 8px 40px 8px;
-    text-align: justify;
-    color: $tertiary-color;
+  padding: 30px 8px 40px 8px;
+  text-align: justify;
+  color: $tertiary-color;
+}
+
+@media (min-width: $tablet) {
+  .testimonials__item {
+    margin: 50px 15px;
+  }
+
+  .testimonials__article {
+    padding: 30px 15px 40px 15px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .testimonials__article {
+    padding: 30px 15px 40px 15px;
+  }
 }

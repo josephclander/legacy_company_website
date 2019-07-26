@@ -15,11 +15,17 @@
 
     & p {
         text-align: justify;
-        line-height: 1.3em;
     }
 }
 
 .acc {
     margin: 18px;
     width: 100px;
+}
+
+@media (min-width: $desktop) {
+    .whyPhiliy__text {
+        padding: 60px 30px 20px 30px;
+        max-width: 600px;
+    }
 }

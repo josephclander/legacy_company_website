@@ -337,7 +337,9 @@ body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   color: #000;
-  background: #fff; }
+  background: #fff;
+  font-size: 1.1em;
+  line-height: 1.5em; }
 
 .container {
   margin: 0 auto;
@@ -452,37 +454,40 @@ nav {
   background: #e6e6e6;
   text-align: center; }
   .whyPhiliy__text p {
-    text-align: justify;
-    line-height: 1.3em; }
+    text-align: justify; }
 
 .acc {
   margin: 18px;
   width: 100px; }
 
+@media (min-width: 768px) {
+  .whyPhiliy__text {
+    padding: 60px 30px 20px 30px;
+    max-width: 600px; } }
 .testimonials {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .testimonials ul {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; }
-    .testimonials ul li {
-      margin: 50px 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: #fff;
-      max-width: 360px;
-      border: 2px solid #000;
-      box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 #A8FDEF; }
+
+.testimonials__list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.testimonials__item {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  max-width: 360px;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 #A8FDEF; }
 
 .testimonials__img {
-  height: 100px;
   width: 100px;
   border: 2px solid #000;
   border-radius: 50%;
@@ -490,7 +495,6 @@ nav {
   box-shadow: -4px 0 0 4px #fff; }
 
 .profileTitle {
-  line-height: 1.5em;
   margin-top: 15px;
   padding: 5px;
   display: flex;
@@ -515,6 +519,15 @@ nav {
   text-align: justify;
   color: #707070; }
 
+@media (min-width: 425px) {
+  .testimonials__item {
+    margin: 50px 15px; }
+
+  .testimonials__article {
+    padding: 30px 15px 40px 15px; } }
+@media (min-width: 768px) {
+  .testimonials__article {
+    padding: 30px 15px 40px 15px; } }
 footer {
   background: #e6e6e6;
   width: 100%;
