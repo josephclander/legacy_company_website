@@ -448,7 +448,7 @@ nav {
 .whyPhiliy__text {
   max-width: 400px;
   border: 2px solid #000;
-  padding: 40px 10px 0 10px;
+  padding: 60px 10px 20px 10px;
   background: #e6e6e6;
   text-align: center; }
   .whyPhiliy__text p {
@@ -491,7 +491,7 @@ nav {
 
 .profileTitle {
   line-height: 1.5em;
-  margin-top: 5px;
+  margin-top: 15px;
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -511,7 +511,7 @@ nav {
   font-style: italic; }
 
 .testimonials__article {
-  padding: 8px 8px 12px 8px;
+  padding: 30px 8px 40px 8px;
   text-align: justify;
   color: #707070; }
 
