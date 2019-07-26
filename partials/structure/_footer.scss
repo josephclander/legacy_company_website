@@ -82,3 +82,10 @@ span {
     transform: rotate(-3deg);
   }
 }
+
+@media (min-width: $LGdesktop) {
+  .social {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

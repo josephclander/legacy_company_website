@@ -602,6 +602,10 @@ span {
     flex: 1;
     font-style: italic;
     transform: rotate(-3deg); } }
+@media (min-width: 1280px) {
+  .social {
+    flex-direction: row;
+    justify-content: center; } }
 .burger {
   width: 35px;
   height: 3px;
