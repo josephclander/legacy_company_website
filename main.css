@@ -343,12 +343,14 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1280px;
-  background: #fff url("/images/BackgroundTile.png") repeat center; }
+  max-width: 1280px; }
 
 a {
   text-decoration: none;
   color: inherit; }
+
+.container__content {
+  background: #fff url("/images/BackgroundTile.png") repeat center; }
 
 nav {
   width: 100%;
@@ -356,10 +358,12 @@ nav {
   top: 0;
   background: #fff;
   padding: 10px 20px;
+  z-index: 100; }
+
+.container__navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  z-index: 100; }
+  align-items: center; }
 
 .title {
   font-family: "Mr Dafoe", cursive; }
@@ -531,7 +535,9 @@ nav {
 footer {
   background: #e6e6e6;
   width: 100%;
-  padding: 20px 0;
+  padding: 20px 0; }
+
+.container__footer {
   display: flex;
   align-items: center;
   justify-content: space-around;

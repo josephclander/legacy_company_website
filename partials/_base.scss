@@ -14,10 +14,13 @@ body {
 .container {
   margin: 0 auto;
   max-width: $LGdesktop;
-  background: #fff url("/images/BackgroundTile.png") repeat center;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.container__content {
+  background: #fff url("/images/BackgroundTile.png") repeat center;
 }
