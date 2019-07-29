@@ -1,7 +1,4 @@
 .landingPage {
-  // margin-top: 45px;
-  // height: calc(100vh - 45px);
-  // padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +7,6 @@
 }
 
 .profile {
-  // margin: 0 auto;
   text-align: center;
 }
 
@@ -21,7 +17,6 @@
 }
 
 .highlightBox {
-  // margin-top: 20px;
   background: $highlight;
   border-radius: 8px;
   width: 260px;
@@ -36,7 +31,6 @@
 
 .blurb {
   font-style: italic;
-  // margin-top: calc(0.5 * #{$medImage} + 10px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +55,6 @@
 .highlightBox__blurb {
   background: $highlight;
   border-radius: 8px;
-  // padding: 20px;
   display: flex;
   transform: rotate(-3deg);
 }

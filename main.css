@@ -355,7 +355,7 @@ a {
 .container__content {
   margin-top: 46px;
   width: 100%;
-  background: #fff url("/images/BackgroundTile.png") repeat center; }
+  background: #fff url("images/BackgroundTile.png") repeat center; }
 
 @media (min-width: 425px) {
   .container__content {
@@ -405,7 +405,7 @@ nav {
   font-size: 4em; }
 
 .highlightBox {
-  background: #A8FDEF;
+  background: rgba(168, 253, 239, 0.4);
   border-radius: 8px;
   width: 260px;
   height: 300px; }
@@ -435,7 +435,7 @@ nav {
   margin-right: -18px; }
 
 .highlightBox__blurb {
-  background: #A8FDEF;
+  background: rgba(168, 253, 239, 0.4);
   border-radius: 8px;
   display: flex;
   transform: rotate(-3deg); }
@@ -494,7 +494,7 @@ nav {
   background: #fff;
   max-width: 360px;
   border: 2px solid #000;
-  box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 #A8FDEF; }
+  box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 rgba(168, 253, 239, 0.4); }
 
 .testimonials__img {
   width: 100px;
@@ -509,7 +509,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #A8FDEF;
+  background: rgba(168, 253, 239, 0.4);
   border-radius: 8px;
   transform: rotate(-3deg); }
 
@@ -563,7 +563,7 @@ footer {
 span {
   padding: 8px;
   transform: rotate(3deg);
-  background: #A8FDEF;
+  background: rgba(168, 253, 239, 0.4);
   box-shadow: 4px 4px 0 0 #fff;
   border-radius: 8px; }
 
@@ -622,7 +622,7 @@ span {
   padding: 10px; }
 
 .btn__contact {
-  background: #A8FDEF; }
+  background: rgba(168, 253, 239, 0.4); }
 
 .btn__link {
   color: #707070;
@@ -635,7 +635,7 @@ span {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #A8FDEF;
+  background: rgba(168, 253, 239, 0.4);
   border: 2px solid #000;
   margin: 0 10px; }
 
@@ -647,7 +647,7 @@ span {
   padding: 10px;
   border: 2px solid #000;
   background: #fff;
-  box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 #A8FDEF;
+  box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 rgba(168, 253, 239, 0.4);
   text-align: center;
   z-index: 10; }
 
