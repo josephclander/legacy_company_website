@@ -1,13 +1,25 @@
 .circle {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: $highlight;
-    border: 2px solid $primary-color;
-    margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: $highlight;
+  border: 2px solid $primary-color;
+  margin: 0 10px;
 }
 
 .divider {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: $LGdesktop) {
+  .divider__LGdesktop {
+    flex-direction: column;
+    align-self: center;
+    margin-top: 0;
+
+    & .circle {
+      margin: 10px 0;
+    }
+  }
 }

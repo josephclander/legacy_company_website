@@ -31,9 +31,20 @@ a {
   background: #fff url("images/BackgroundTile.png") repeat center;
 }
 
+.container__profandAbout {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: $tablet) {
   .container__content {
     margin-top: 66px;
   }
 }
 
+@media (min-width: $LGdesktop) {
+  .container__profandAbout {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

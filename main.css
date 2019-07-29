@@ -357,9 +357,17 @@ a {
   width: 100%;
   background: #fff url("images/BackgroundTile.png") repeat center; }
 
+.container__profandAbout {
+  display: flex;
+  flex-direction: column; }
+
 @media (min-width: 425px) {
   .container__content {
     margin-top: 66px; } }
+@media (min-width: 1280px) {
+  .container__profandAbout {
+    flex-direction: row;
+    justify-content: space-evenly; } }
 nav {
   width: 100%;
   position: fixed;
@@ -474,6 +482,12 @@ nav {
   .whyPhiliy__text {
     padding: 60px 30px 20px 30px;
     max-width: 600px; } }
+@media (min-width: 1280px) {
+  .whyPhiliy {
+    margin-top: 0; }
+
+  .whyPhiliy__text {
+    max-width: 400px; } }
 .testimonials {
   display: flex;
   flex-direction: column;
@@ -643,6 +657,13 @@ span {
   display: flex;
   justify-content: center; }
 
+@media (min-width: 1280px) {
+  .divider__LGdesktop {
+    flex-direction: column;
+    align-self: center;
+    margin-top: 0; }
+    .divider__LGdesktop .circle {
+      margin: 10px 0; } }
 .headerBox {
   padding: 10px;
   border: 2px solid #000;
