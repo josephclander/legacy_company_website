@@ -8,6 +8,8 @@
 
 .profile {
   text-align: center;
+  width: 80%;
+  max-width: 500px;
 }
 
 .headline {
@@ -19,7 +21,7 @@
 .highlightBox {
   background: $highlight;
   border-radius: 8px;
-  width: 260px;
+  width: 100%;
   height: 300px;
 }
 
@@ -76,3 +78,9 @@
 }
 
 // $tablet = 425px
+
+@media (min-width: $LGdesktop) {
+  .landingPage {
+    flex: 1;
+  }
+}
