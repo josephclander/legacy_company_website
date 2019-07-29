@@ -12,17 +12,23 @@
   max-width: 500px;
 }
 
-.headline {
-  font-family: $brandfont;
-  padding: 20px;
-  font-size: $headlineSize;
+.logo {
+  width: 67%;
+  position: absolute;
+  top: 0;
+  transform: translateY(-40%);
 }
 
 .highlightBox {
   background: $highlight;
   border-radius: 8px;
   width: 100%;
-  height: 300px;
+  height: 260px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile_image img {
