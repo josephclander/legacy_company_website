@@ -381,8 +381,8 @@ nav {
   justify-content: space-between;
   align-items: center; }
 
-.title {
-  font-family: "Mr Dafoe", cursive; }
+.title__logo {
+  height: 24px; }
 
 .mobile {
   display: block; }
