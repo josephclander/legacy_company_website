@@ -1,7 +1,6 @@
 .btn {
+    display: flex;
     margin-left: 20px;
-    border-radius: 5px;
-    padding: 10px;
 }
 
 .btn__contact {
@@ -11,6 +10,8 @@
 .btn__link {
     color: $tertiary-color;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .btn__link:hover {

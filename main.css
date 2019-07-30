@@ -662,16 +662,17 @@ span {
   background: #000; }
 
 .btn {
-  margin-left: 20px;
-  border-radius: 5px;
-  padding: 10px; }
+  display: flex;
+  margin-left: 20px; }
 
 .btn__contact {
   background: rgba(168, 253, 239, 0.4); }
 
 .btn__link {
   color: #707070;
-  text-decoration: none; }
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px; }
 
 .btn__link:hover {
   color: #000; }
