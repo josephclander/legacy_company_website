@@ -402,10 +402,12 @@ nav {
   display: none; }
 
 .menu__mobile_item {
-  padding: 18px 0; }
+  width: 100%; }
 
 .menu__mobile_link {
-  width: 100%; }
+  display: flex;
+  justify-content: center;
+  padding: 18px 0; }
 
 @media (min-width: 425px) {
   .menu {
