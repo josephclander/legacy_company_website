@@ -26,20 +26,24 @@ nav {
 }
 
 .menu__mobile {
-  display: none;
-}
-
-.mobile__toggle {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 1.3em;
-  transition: 0.3s;
+  text-align: center;
+}
+
+.mobile__toggle {
+  display: none;
 }
 
 .menu__mobile_item {
   padding: 18px 0;
+}
+
+.menu__mobile_link {
+  width: 100%;
 }
 
 @media (min-width: $tablet) {
