@@ -374,7 +374,8 @@ nav {
   top: 0;
   background: #fff;
   padding: 10px 20px;
-  z-index: 100; }
+  z-index: 100;
+  transition: top 0.3s; }
 
 .container__navbar {
   display: flex;
