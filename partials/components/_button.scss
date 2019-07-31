@@ -4,16 +4,14 @@
 }
 
 .btn__contact {
-//   background: $highlight;
-  background-image: $backgroundhighlight;
-  border-left: $leftborderBGhighlight;
+  background: $backgroundhighlight;
 }
 
 .btn__link {
   color: $tertiary-color;
   text-decoration: none;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: $border-radius;
 }
 
 .btn__link:hover {

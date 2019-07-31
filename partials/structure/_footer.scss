@@ -22,17 +22,14 @@ footer {
 .email {
   font-size: 1.3em;
   font-style: italic;
-  transform: rotate(-3deg);
 }
 
 span {
   padding: 8px;
   transform: rotate(3deg);
-  // background: $highlight;
-  background-image: $backgroundhighlight;
-  border-left: $leftborderBGhighlight;
+  background: $backgroundhighlight;
   box-shadow: 4px 4px 0 0 $white;
-  border-radius: 8px;
+  border-radius: $border-radius;
 }
 
 .social__email {
