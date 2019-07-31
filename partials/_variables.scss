@@ -39,6 +39,18 @@ $primary-border: 2px solid $primary-color;
 $highlightShadow: 3px 3px 0 0 #fff, 6px 6px 0 0 $highlight;
 
 
+// background highlighter
+
+  $backgroundhighlight: linear-gradient(
+      5deg,
+    rgba(168, 253, 239, 0.7),
+    rgba(230, 254, 250, 0.4),
+    rgba(230, 254, 250, 0.4),
+    rgba(230, 254, 250, 0.4),
+    rgba(168, 253, 239, 0.7)
+  );
+  $leftborderBGhighlight: 2px solid rgba(168, 253, 239, 0.4);
+
 // image sizes
 
 $smallImage: 100px;

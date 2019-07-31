@@ -1,19 +1,21 @@
 .btn {
-    display: flex;
-    margin-left: 20px;
+  display: flex;
+  margin-left: 20px;
 }
 
 .btn__contact {
-    background: $highlight;
+  background: $highlight;
+  background-image: $backgroundhighlight;
+  border-left: $leftborderBGhighlight;
 }
 
 .btn__link {
-    color: $tertiary-color;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
+  color: $tertiary-color;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .btn__link:hover {
-    color: $primary-color;
+  color: $primary-color;
 }

@@ -38,6 +38,8 @@
   flex-direction: column;
   justify-content: space-between;
   background: $highlight;
+  background-image: $backgroundhighlight;
+  border-left: $leftborderBGhighlight;
   border-radius: 8px;
   transform: rotate(-3deg);
 }
