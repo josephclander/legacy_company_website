@@ -20,7 +20,7 @@ footer {
 }
 
 .email {
-  font-size: 1.3em;
+  font-size: 1em;
   font-style: italic;
 }
 
@@ -55,11 +55,19 @@ span {
 
 .fab {
   box-shadow: 4px 4px 0 0 $white;
-  font-size: 2.6em;
+  font-size: 2.3em;
   margin: 0 17px;
 }
 
 @media (min-width: $tablet) {
+  .email {
+    font-size: 1.3em;
+  }
+
+  .fab {
+    font-size: 2.6em;
+  }
+
   .social {
     display: flex;
     flex-direction: column;
