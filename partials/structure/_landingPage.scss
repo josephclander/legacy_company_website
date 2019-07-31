@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  padding-top: 64px;
 }
 
 .profile {
@@ -74,6 +74,13 @@
 
 .blurb__item {
   padding: 10px 15px;
+}
+
+@media (min-width: $tablet) {
+  .landingPage {
+    height: 100vh;
+    padding-top: 0;
+  }
 }
 
 // added to remove height being 100vh in landscape
