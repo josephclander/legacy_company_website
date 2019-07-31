@@ -61,8 +61,7 @@
 }
 
 .highlightBox__blurb {
-  background-image: $backgroundhighlight;
-  border-left: $leftborderBGhighlight;
+  background: $backgroundhighlight;
   border-radius: $border-radius;
   display: flex;
   transform: rotate(-3deg);
