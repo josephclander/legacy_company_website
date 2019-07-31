@@ -2,8 +2,10 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: $highlight;
+  // background: $highlight;
+  background: radial-gradient(rgba(230, 254, 250, 0.2),rgba(168, 253, 239, 0.7));
   border: 2px solid $primary-color;
+  box-shadow: -2px 0 0 2px rgba(168, 253, 239, 0.7);
   margin: 0 10px;
 }
 

@@ -3,17 +3,16 @@
 $fontstack: Helvetica, Arial, sans-serif;
 $brandfont: "Mr Dafoe", cursive;
 
-
 // font-size
 
 $headlineSize: 4em;
 
 h3 {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 h4 {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 // font colors
@@ -22,13 +21,11 @@ $primary-color: #000;
 $secondary-color: #515151;
 $tertiary-color: #707070;
 
-
 // backgrounds
 
 $white: #fff;
 $lightgrey: #e6e6e6;
-$highlight: rgba(168, 253, 239,0.4);
-
+$highlight: rgba(168, 253, 239, 0.4);
 
 // borders
 
@@ -38,18 +35,26 @@ $primary-border: 2px solid $primary-color;
 
 $highlightShadow: 3px 3px 0 0 #fff, 6px 6px 0 0 $highlight;
 
-
 // background highlighter
 
-  $backgroundhighlight: linear-gradient(
-      5deg,
+$backgroundhighlight: linear-gradient(
+    5deg,
     rgba(168, 253, 239, 0.7),
     rgba(230, 254, 250, 0.4),
     rgba(230, 254, 250, 0.4),
     rgba(230, 254, 250, 0.4),
     rgba(168, 253, 239, 0.7)
+  ),
+  linear-gradient(
+    90deg,
+    rgba(168, 253, 239, 1),
+    rgba(230, 254, 250, 0.2),
+    rgba(230, 254, 250, 0.2),
+    rgba(230, 254, 250, 0.2),
+    rgba(230, 254, 250, 0.2),
+    rgba(230, 254, 250, 0.2)
   );
-  $leftborderBGhighlight: 2px solid rgba(168, 253, 239, 0.4);
+$leftborderBGhighlight: 2px solid rgba(168, 253, 239, 0.4);
 
 // image sizes
 
