@@ -16,5 +16,8 @@ function scrollUp() {
 
 document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById("mobile").addEventListener("click", classToggle);
+  document
+    .getElementById("menu__mobile")
+    .addEventListener("click", classToggle);
   window.addEventListener("scroll", scrollUp);
 });
