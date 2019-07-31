@@ -485,7 +485,7 @@ nav {
 @media (orientation: landscape) and (max-height: 600px) {
   .landingPage {
     height: inherit;
-    padding-top: 30px; } }
+    padding-top: 86px; } }
 @media (min-width: 1281px) {
   .landingPage {
     flex: 1; } }
