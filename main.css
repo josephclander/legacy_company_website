@@ -542,7 +542,7 @@ nav {
   background: #fff;
   max-width: 360px;
   border: 2px solid #000;
-  box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 rgba(168, 253, 239, 0.4); }
+  box-shadow: 1px 1px 0 0 #fff, 6px 6px 0 0 rgba(168, 253, 239, 0.7); }
 
 .testimonials__img {
   width: 100px;
@@ -708,7 +708,7 @@ span {
   padding: 10px;
   border: 2px solid #000;
   background: #fff;
-  box-shadow: 3px 3px 0 0 #fff, 6px 6px 0 0 rgba(168, 253, 239, 0.4);
+  box-shadow: 1px 1px 0 0 #fff, 6px 6px 0 0 rgba(168, 253, 239, 0.7);
   text-align: center;
   z-index: 10;
   margin: 0 auto;

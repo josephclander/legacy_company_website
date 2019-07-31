@@ -25,7 +25,7 @@ $tertiary-color: #707070;
 
 $white: #fff;
 $lightgrey: #e6e6e6;
-$highlight: rgba(168, 253, 239, 0.4);
+$highlight: rgba(168, 253, 239, 0.7);
 
 // borders
 
@@ -34,7 +34,7 @@ $border-radius: 3px;
 
 // shadows
 
-$highlightShadow: 3px 3px 0 0 #fff, 6px 6px 0 0 $highlight;
+$highlightShadow: 1px 1px 0 0 #fff, 6px 6px 0 0 $highlight;
 
 // background highlighter
 
