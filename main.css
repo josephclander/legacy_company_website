@@ -526,6 +526,44 @@ nav {
   .whyPhiliy__text {
     width: 80%;
     max-width: 500px; } }
+.coaching__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.coaching {
+  max-width: 600px;
+  border: 3px solid rgba(168, 253, 239, 0.7);
+  background: #fff; }
+
+.coaching__image img {
+  max-width: 100%; }
+
+.coaching__blurb__container {
+  display: flex;
+  flex-direction: column; }
+
+.coaching__header, .coaching__blurb {
+  padding: 10px; }
+
+.coaching__header {
+  margin-top: 10px; }
+
+.coaching__blurb {
+  color: #707070; }
+
+.button__book {
+  align-self: center;
+  padding: 10px;
+  margin: 15px;
+  color: #707070;
+  border: none;
+  border-radius: 3px;
+  background: linear-gradient(5deg, rgba(253, 168, 249, 0.7), rgba(252, 230, 254, 0.4), rgba(252, 230, 254, 0.4), rgba(252, 230, 254, 0.4), rgba(253, 168, 249, 0.7)), linear-gradient(90deg, #fda8f9, rgba(252, 230, 254, 0.2), rgba(252, 230, 254, 0.2), rgba(252, 230, 254, 0.2), rgba(252, 230, 254, 0.2), rgba(252, 230, 254, 0.2)); }
+
+.button__book:hover {
+  color: #000; }
+
 .testimonials {
   display: flex;
   flex-direction: column;
