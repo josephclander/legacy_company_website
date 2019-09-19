@@ -541,13 +541,11 @@ nav {
 
 .coaching__blurb__container {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 10px 0; }
 
 .coaching__header, .coaching__blurb {
   padding: 10px; }
-
-.coaching__header {
-  margin-top: 10px; }
 
 .coaching__blurb {
   color: #707070; }
