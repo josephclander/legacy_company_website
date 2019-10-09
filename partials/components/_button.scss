@@ -17,3 +17,17 @@
 .btn__link:hover {
   color: $primary-color;
 }
+
+.button__book {
+    align-self: center;
+    padding: 10px 20px;
+    margin: 15px;
+    color: $tertiary-color;
+    border: none;
+    border-radius: $border-radius;
+    background: $backgroundhighlightPink;
+}
+
+.button__book:hover {
+    color: $primary-color; 
+}
