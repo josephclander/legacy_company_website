@@ -679,11 +679,21 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media (min-width: 768px) {
+    .card__container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+      justify-content: space-evenly; } }
 
 .card {
-  max-width: 600px;
+  max-width: 500px;
   border: 3px solid rgba(168, 253, 239, 0.7);
   background: #fff; }
+  @media (min-width: 425px) {
+    .card {
+      margin-left: 10px;
+      margin-right: 10px; } }
 
 .card__image img {
   max-width: 100%; }
