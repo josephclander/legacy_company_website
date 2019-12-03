@@ -3,10 +3,6 @@
   margin-left: 20px;
 }
 
-.btn__contact {
-  background: $backgroundhighlight;
-}
-
 .btn__link {
   color: $tertiary-color;
   text-decoration: none;
@@ -30,4 +26,8 @@
 
 .button__book:hover {
     color: $primary-color; 
+}
+
+.btn__contact {
+  background: $backgroundhighlight;
 }

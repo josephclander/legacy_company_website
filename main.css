@@ -733,9 +733,6 @@ footer {
   display: flex;
   margin-left: 20px; }
 
-.btn__contact {
-  background: linear-gradient(5deg, rgba(168, 253, 239, 0.7), rgba(230, 254, 250, 0.4), rgba(230, 254, 250, 0.4), rgba(230, 254, 250, 0.4), rgba(168, 253, 239, 0.7)), linear-gradient(90deg, #a8fdef, rgba(230, 254, 250, 0.2), rgba(230, 254, 250, 0.2), rgba(230, 254, 250, 0.2), rgba(230, 254, 250, 0.2), rgba(230, 254, 250, 0.2)); }
-
 .btn__link {
   color: #707070;
   text-decoration: none;
@@ -756,6 +753,9 @@ footer {
 
 .button__book:hover {
   color: #000; }
+
+.btn__contact {
+  background: linear-gradient(5deg, rgba(168, 253, 239, 0.7), rgba(230, 254, 250, 0.4), rgba(230, 254, 250, 0.4), rgba(230, 254, 250, 0.4), rgba(168, 253, 239, 0.7)), linear-gradient(90deg, #a8fdef, rgba(230, 254, 250, 0.2), rgba(230, 254, 250, 0.2), rgba(230, 254, 250, 0.2), rgba(230, 254, 250, 0.2), rgba(230, 254, 250, 0.2)); }
 
 .circle {
   width: 30px;
