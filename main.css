@@ -533,6 +533,12 @@ nav {
   margin: 5px 0 10px 0;
   color: #707070; }
 
+.twitter__feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; }
+
 .testimonials {
   display: flex;
   flex-direction: column;
