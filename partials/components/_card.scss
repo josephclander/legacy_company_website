@@ -22,6 +22,12 @@
   }
 }
 
+.twoSplit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card__image img {
   max-width: 100%;
 }
